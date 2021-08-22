@@ -65,11 +65,11 @@ i.ranking::after { content: "] "; }
 div.chatline span [href*="DieRandomDie"] .chatname {
   text-align: center;
   font-family: monospace;
-  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(blue), color-stop(indigo), color-stop(violet), to(white));
-  background: -webkit-linear-gradient(right, white, red, orange, yellow, green, blue, indigo, violet, white);
-  background: -moz-linear-gradient(right, white, red, orange, yellow, green, blue, indigo, violet, white);
-  background: -o-linear-gradient(right, white, red, orange, yellow, green, blue, indigo, violet, white);
-  background: linear-gradient(to right, white, red, orange, yellow, green, blue, indigo, violet, white);
+  background: -webkit-gradient(linear, left top, right top, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(blue), color-stop(indigo), to(violet));
+  background: -webkit-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet);
+  background: -moz-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet);
+  background: -o-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet);
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

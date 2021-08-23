@@ -1,4 +1,4 @@
-div.chatline span [href*="DieRandomDie"] .chatname {
+div.chatline span [href*="DieRan"] .chatname {
   text-align: center;
   font-family: Arial, sans-serif;
   background: -webkit-gradient(linear, left top, right top, from(red), to(black));

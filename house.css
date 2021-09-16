@@ -15,41 +15,18 @@
 }
 
 @-webkit-keyframes shift {
-  0%, 100% {
-    background-position: 0 0;
-  }
-
-  50% {
-    background-position: 100% 0;
-  }
+  0%, 100% { background-position: 0 0; }
+  50% { background-position: 100% 0; }
 }
-
 @-moz-keyframes shift {
-  0%, 100% {
-    background-position: 0 0;
-  }
-
-  50% {
-    background-position: 100% 0;
-  }
+  0%, 100% { background-position: 0 0; }
+  50% { background-position: 100% 0; }
 }
-
 @-o-keyframes shift {
-  0%, 100% {
-    background-position: 0 0;
-  }
-
-  50% {
-    background-position: 100% 0;
-  }
+  0%, 100% { background-position: 0 0; }
+  50% { background-position: 100% 0; }
 }
-
 @keyframes shift {
-  0%, 100% {
-    background-position: 0 0;
-  }
-
-  50% {
-    background-position: 100% 0;
-  }
+  0%, 100% { background-position: 0 0; }
+  50% { background-position: 100% 0; }
 }

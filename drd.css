@@ -10,11 +10,11 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: shimmer 15s ease-in-out infinite;
+  animation: shift 15s ease-in-out infinite;
   background-size: 400% 100%;
 }
 
-@-webkit-keyframes shimmer {
+@-webkit-keyframes shift {
   0%, 100% {
     background-position: 0 0;
   }
@@ -24,7 +24,7 @@
   }
 }
 
-@-moz-keyframes shimmer {
+@-moz-keyframes shift {
   0%, 100% {
     background-position: 0 0;
   }
@@ -34,7 +34,7 @@
   }
 }
 
-@-o-keyframes shimmer {
+@-o-keyframes shift {
   0%, 100% {
     background-position: 0 0;
   }
@@ -44,7 +44,7 @@
   }
 }
 
-@keyframes shimmer {
+@keyframes shift {
   0%, 100% {
     background-position: 0 0;
   }

@@ -1,0 +1,55 @@
+.housename {
+  text-align: center;
+  text-decoration: underline;
+  font-family: monospace;
+  background: -webkit-gradient(linear, left top, right top, from(#696969), color-stop(red), color-stop(orange), color-stop(yellow), color-stop(blue), color-stop(green), color-stop(indigo), to(violet));
+  background: -webkit-linear-gradient(right, #696969, red, orange, yellow, green, blue, indigo, violet);
+  background: -moz-linear-gradient(right, #696969, red, orange, yellow, green, blue, indigo, violet);
+  background: -o-linear-gradient(right, #696969, red, orange, yellow, green, blue, indigo, violet);
+  background: linear-gradient(to right, #696969, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shift 15s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@-webkit-keyframes shift {
+  0%, 100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes shift {
+  0%, 100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes shift {
+  0%, 100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes shift {
+  0%, 100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}

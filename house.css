@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 .housename {
   text-align: center;
   text-decoration: underline;
-  font-family: monospace;
+  font-family: font-family: 'Dancing Script', cursive;
   background: -webkit-gradient(linear, left top, right top, from(red), color-stop(orange), color-stop(yellow), color-stop(blue), color-stop(green), color-stop(indigo), to(violet));
   background: -webkit-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet);
   background: -moz-linear-gradient(right,red, orange, yellow, green, blue, indigo, violet);

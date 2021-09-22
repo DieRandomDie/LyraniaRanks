@@ -1,4 +1,4 @@
-div.chatline span [href*="Vodka"] .chatname {
+div.chatline span [href*="DieRandomDie"] .chatname {
   text-align: center;
   background: -webkit-gradient(linear, left top, right top, from(#696969), color-stop(red), color-stop(yellow), color-stop(green), to(#696969));
   background: -webkit-linear-gradient(right, #696969, red, yellow, green, #696969);
@@ -38,7 +38,7 @@ div.chatline span [href*="Vodka"] .chatname {
 
 
 .ranktext span {
-	animation: smol 15s linear infinite;
+	animation: yay 30s ease-in infinite;
 }
 
 .ranktext {
@@ -56,7 +56,12 @@ div.chatline span [href*="Vodka"] .chatname {
 	90% {color: violet}
 }
 
-@keyframes smol {
-	0%, 100% {font-size: 0em;}
-	50% {font-size: 1em;}
+@keyframes yay-r {
+	0%, 100% {color: violet}
+	15% {color: indigo}
+	30% {color: blue}
+	45% {color: green}
+	60% {color: yellow}
+	75% {color: orange}
+	90% {color: red}
 }

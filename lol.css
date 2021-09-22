@@ -35,15 +35,13 @@ div.chatline span [href*="DieRandomDie"] .chatname {
   80% { background-position: 200% 0; }
 }
 
-
-
-.ranktext span {
-	animation: yay 30s ease-in infinite;
-}
-
 .ranktext {
 	font-style: normal;
 	animation: yay 45s ease-in infinite;
+}
+
+.ranktext span {
+	animation: yay-r 30s ease-in infinite;
 }
 
 @keyframes yay {

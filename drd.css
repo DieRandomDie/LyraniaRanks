@@ -48,7 +48,3 @@ div.chatline span [href*="Vodka"] .chatname {
 	75% {color: ingido}
 	90% {color: violet}
 }
-
-
-i.ranktext::before { content: "["; color: #696969;}
-i.ranktext::after { content: "] "; color: #696969;}

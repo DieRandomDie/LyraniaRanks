@@ -1,4 +1,4 @@
-.ranktext {
+div.chatline span [href*="Vodka"] .chatname {
   text-align: center;
   text-decoration: underline;
   font-family: monospace;
@@ -10,67 +10,45 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: shift 15s ease-in-out infinite;
+  animation: shimmer 15s ease-in-out infinite;
   background-size: 400% 100%;
 }
 
-@-webkit-keyframes shift {
-  0%, 100% {
-    background-position: 0 0;
-  }
-
-  50% {
-    background-position: 100% 0;
-  }
+@-webkit-keyframes shimmer {
+  0%, 100% { background-position: 0 0; }
+  50% { background-position: 100% 0; }
 }
 
-@-moz-keyframes shift {
-  0%, 100% {
-    background-position: 0 0;
-  }
-
-  50% {
-    background-position: 100% 0;
-  }
+@-moz-keyframes shimmer {
+  0%, 100% { background-position: 0 0; }
+  50% { background-position: 100% 0; }
 }
 
-@-o-keyframes shift {
-  0%, 100% {
-    background-position: 0 0;
-  }
-
-  50% {
-    background-position: 100% 0;
-  }
+@-o-keyframes shimmer {
+  0%, 100% { background-position: 0 0; }
+  50% { background-position: 100% 0; }
 }
 
-@keyframes shift {
-  0%, 100% {
-    background-position: 0 0;
-  }
-
-  50% {
-    background-position: 100% 0;
-  }
+@keyframes shimmer {
+  0%, 100% { background-position: 0 0; }
+  50% { background-position: 100% 0; }
 }
 
-i.ranking { 
-    font-style: normal;
-    color: #696969;
+.ranktext {
+	font-style: normal;
+	animation: yay 45s ease-in infinite;
 }
-i.ranking::before { content: "["; }
-i.ranking::after { content: "] "; }
 
-/* Coloured Name code */
-div.chatline span [href*="DieRandomDie"] .chatname {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  background: -webkit-gradient(linear, left top, right top, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(blue), color-stop(indigo), to(violet));
-  background: -webkit-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet);
-  background: -moz-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet);
-  background: -o-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet);
-  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+@keyframes yay {
+	0%, 100% {color: red}
+	15% {color: orange}
+	30% {color: yellow}
+	45% {color: green}
+	60% {color: blue}
+	75% {color: ingido}
+	90% {color: violet}
 }
+
+
+i.ranktext::before { content: "["; color: #696969;}
+i.ranktext::after { content: "] "; color: #696969;}

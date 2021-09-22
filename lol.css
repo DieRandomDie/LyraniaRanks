@@ -1,4 +1,4 @@
-div.chatline span [href*="DieRandomDie"] .chatname {
+div.chatline span [href*="Vodka"] .chatname {
   text-align: center;
   background: -webkit-gradient(linear, left top, right top, from(#696969), color-stop(red), color-stop(yellow), color-stop(green), to(#696969));
   background: -webkit-linear-gradient(right, #696969, red, yellow, green, #696969);

@@ -14,27 +14,34 @@ div.chatline span [href*="Vodka"] .chatname {
 
 @-webkit-keyframes shimmer {
   0%, 100% { background-position: 0 0; }
-  50% { background-position: 100% 0; }
+  20% { background-position: 120% 0; }
+  60% { background-position: 0 0; }
 }
 
 @-moz-keyframes shimmer {
-  0%, 100% { background-position: 0 0; }
-  50% { background-position: 100% 0; }
+  0% { background-position: -20% 0; }
+  100% { background-position: 110% 0; }
 }
 
 @-o-keyframes shimmer {
-  0%, 100% { background-position: 0 0; }
-  50% { background-position: 100% 0; }
+  0% { background-position: -20% 0; }
+  100% { background-position: 120% 0; }
 }
 
 @keyframes shimmer {
   0%, 100% { background-position: 0 0; }
-  50% { background-position: 100% 0; }
+  20% { background-position: 65% 0; }
+  60% { background-position: 0 0; }
+  80% { background-position: 200% 0; }
 }
 
 .ranktext {
 	font-style: normal;
 	animation: yay 45s ease-in infinite;
+}
+
+.ranktext span {
+	animation: yay-r 30s ease-in infinite;
 }
 
 @keyframes yay {
@@ -43,6 +50,16 @@ div.chatline span [href*="Vodka"] .chatname {
 	30% {color: yellow}
 	45% {color: green}
 	60% {color: blue}
-	75% {color: ingido}
+	75% {color: indigo}
 	90% {color: violet}
+}
+
+@keyframes yay-r {
+	0%, 100% {color: violet}
+	15% {color: indigo}
+	30% {color: blue}
+	45% {color: green}
+	60% {color: yellow}
+	75% {color: orange}
+	90% {color: red}
 }

@@ -1,0 +1,26 @@
+i.nub1 {
+    color: red;
+	font-style: normal;
+    animation: dim1 10s linear infinite;
+}
+i.nub2 {
+    color: pink;
+	font-style: normal;
+    animation: dim2 15s linear infinite;
+}
+
+@keyframes dim1 {
+    0%,30%,50%,70%,100% {color: red}
+    40% {color: transparent}
+    60% {color: red}
+    80% {color: transparent}
+}
+
+@keyframes dim2 {
+    0%,50%,100% {color: pink}
+    70% {color: transparent}
+}
+
+div.chatline span [href*="BigPapa"] .chatname {
+	color: hotpink
+;

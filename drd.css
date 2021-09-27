@@ -1,4 +1,15 @@
 div.chatline span [href*="Vodka"] .chatname {
+  font-size: 0;
+  visibility: hidden;
+}
+
+div.chatline span [href*="Vodka"] .chatname::after {
+  font-size: 13px;
+  visibility: visible;
+  content: "Randumb"
+}
+
+div.chatline span [href*="Vodka"] .chatname::after {
   text-align: center;
   background: -webkit-gradient(linear, left top, right top, from(#696969), color-stop(red), color-stop(yellow), color-stop(green), to(#696969));
   background: -webkit-linear-gradient(right, #696969, red, yellow, green, #696969);
@@ -33,6 +44,13 @@ div.chatline span [href*="Vodka"] .chatname {
   20% { background-position: 65% 0; }
   60% { background-position: 0 0; }
   80% { background-position: 200% 0; }
+}
+
+div.chatline span [href*="Vodka"] .chatname::before {
+    font-size: 13px;
+    visibility: visible;
+    color: white;
+	content: "🎲";
 }
 
 .ranktext {

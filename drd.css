@@ -6,7 +6,7 @@ div.chatline span [href*="Vodka"] .chatname {
 div.chatline span [href*="Vodka"] .chatname::after {
   font-size: 13px;
   visibility: visible;
-  content: "Randumb"
+  content: "RandomDie"
 }
 
 div.chatline span [href*="Vodka"] .chatname::after {

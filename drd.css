@@ -4,6 +4,7 @@ div.chatline span [href*="DieRandomDie"] .chatname {
 }
 
 div.chatline span [href*="DieRandomDie"] .chatname::after {
+  visibility: visible;
   text-align: center;
   content: "🎲Random🎲";
   background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(red), color-stop(yellow), color-stop(green), to(#fff));

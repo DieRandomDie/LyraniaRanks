@@ -1,56 +1,19 @@
-div.chatline span [href*="Vodka"] .chatname {
+div.chatline span [href*="DieRandomDie"] .chatname {
   font-size: 0;
   visibility: hidden;
 }
 
-div.chatline span [href*="Vodka"] .chatname::after {
-  font-size: 13px;
-  visibility: visible;
-  content: "RandomDie"
-}
-
-div.chatline span [href*="Vodka"] .chatname::after {
+div.chatline span [href*="DieRandomDie"] .chatname::after {
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(#696969), color-stop(red), color-stop(yellow), color-stop(green), to(#696969));
-  background: -webkit-linear-gradient(right, #696969, red, yellow, green, #696969);
-  background: -moz-linear-gradient(right, #696969, red, yellow, green, #696969);
-  background: -o-linear-gradient(right, #696969, red, yellow, green, #696969);
-  background: linear-gradient(to right, #696969, red, yellow, green, #696969);
+  content: "🎲Random🎲";
+  background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(red), color-stop(yellow), color-stop(green), to(#fff));
+  background: -webkit-linear-gradient(right, #fff, red, yellow, green, #fff);
+  background: -moz-linear-gradient(right, #fff, red, yellow, green, #fff);
+  background: -o-linear-gradient(right, #fff, red, yellow, green, #fff);
+  background: linear-gradient(to right, #fff, red, yellow, green, #fff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: shimmer 15s ease-in-out infinite;
-  background-size: 400% 100%;
-}
-
-@-webkit-keyframes shimmer {
-  0%, 100% { background-position: 0 0; }
-  20% { background-position: 120% 0; }
-  60% { background-position: 0 0; }
-}
-
-@-moz-keyframes shimmer {
-  0% { background-position: -20% 0; }
-  100% { background-position: 110% 0; }
-}
-
-@-o-keyframes shimmer {
-  0% { background-position: -20% 0; }
-  100% { background-position: 120% 0; }
-}
-
-@keyframes shimmer {
-  0%, 100% { background-position: 0 0; }
-  20% { background-position: 65% 0; }
-  60% { background-position: 0 0; }
-  80% { background-position: 200% 0; }
-}
-
-div.chatline span [href*="Vodka"] .chatname::before {
-    font-size: 13px;
-    visibility: visible;
-    color: white;
-	content: "🎲";
 }
 
 .ranktext {

@@ -1,9 +1,13 @@
 .kakorank {
 	font-style: normal;
-	background-image: url('https://media1.giphy.com/media/l41m1g5lr3wK8at2w/200.webp?cid=ecf05e47ucaug1eamj0w9xjbl6dx31xgycpus9rnhuld8w4d&rid=200.webp&ct=g');
+	background-image: url('https://giphy.com/gifs/sky-photography-sunset-YmiVOwLxy16Ss');
 	background-size: cover;
 	color: transparent;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
 	font-size: 13px;
+}
+
+.kakorank span {
+	text-decoration: line-through;
 }

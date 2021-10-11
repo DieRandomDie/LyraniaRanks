@@ -1,0 +1,9 @@
+.ranktext {
+	font-style: normal;
+	background-image: url('https://media2.giphy.com/media/xTiTnkZoCSqp3Dn6yk/200w.webp?cid=ecf05e47fybgkiae4i0nu2ul6ayrv7yt0osutshxw34i16yg&rid=200w.webp&ct=g');
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	font-size: 13px;
+}

@@ -1,7 +1,8 @@
 .kakorank {
 	font-style: normal;
-	background-image: url('https://media0.giphy.com/media/YmiVOwLxy16Ss/giphy.gif?cid=790b761123a3f11bc2478029e4c826762be18c50acb38b44&rid=giphy.gif&ct=g');
-	background-size: 20%;
+	background-image: url('https://media3.giphy.com/media/3o7WIB00yXujVt4WEo/200w.webp?cid=ecf05e47c388h04xumjqzehw6qm995o5nrcfxhmn1le5ff1q&rid=200w.webp&ct=g');
+	background-size: cover;
+    background-position: center;
 	color: transparent;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;

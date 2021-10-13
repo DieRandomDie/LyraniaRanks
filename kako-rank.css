@@ -1,12 +1,6 @@
 .kakorank {
-	font-style: normal;
-	background-image: url('https://media3.giphy.com/media/3o7WIB00yXujVt4WEo/200w.webp?cid=ecf05e47c388h04xumjqzehw6qm995o5nrcfxhmn1le5ff1q&rid=200w.webp&ct=g');
-	background-size: cover;
-    background-position: center;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	font-size: 13px;
+	color:#00FF00;
+	text-shadow:0 0 4px #00FF00;
 }
 
 .kakorank span {

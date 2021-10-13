@@ -1,11 +1,11 @@
 i.cuberank {
 	font-style: normal;
 	font-weight: bold;
-	background: -webkit-gradient(linear, left bottom, right top, from(orange), to(pink));
-	background: -webkit-linear-gradient(top, orange, pink);
-	background: -moz-linear-gradient(top, orange, pink);
-	background: -o-linear-gradient(top, orange, pink);
-	background: linear-gradient(to top, orange, pink);
+	background: -webkit-gradient(linear, left bottom, right top, from(#ed9121), to(pink));
+	background: -webkit-linear-gradient(top, #ed9121, pink);
+	background: -moz-linear-gradient(top, #ed9121, pink);
+	background: -o-linear-gradient(top, #ed9121, pink);
+	background: linear-gradient(to top, #ed9121, pink);
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;

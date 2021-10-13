@@ -1,0 +1,32 @@
+.cuberank {
+	background: -webkit-gradient(linear, left bottom, right top, from(orange), to(pink));
+	background: -webkit-linear-gradient(top, orange, pink);
+	background: -moz-linear-gradient(top, orange, pink);
+	background: -o-linear-gradient(top, orange, pink);
+	background: linear-gradient(to top, orange, pink);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	animation: rise 15s ease-in-out infinite;
+	background-size: 100% 400%;
+}
+
+@-webkit-keyframes rise {
+  0% { background-position: 0 0; }
+  50% { background-position: 0 100%; }
+}
+
+@-moz-keyframes rise {
+  0% { background-position: 0 0; }
+  50% { background-position: 0 100%; }
+}
+
+@-o-keyframes rise {
+  0% { background-position: 0 0; }
+  50% { background-position: 0 100%; }
+}
+
+@keyframes rise {
+  0% { background-position: 0 0; }
+  50% { background-position: 0 100%; }
+}

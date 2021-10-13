@@ -1,5 +1,6 @@
 i.cuberank {
 	font-style: normal;
+	font-weight: bold;
 	background: -webkit-gradient(linear, left bottom, right top, from(orange), to(pink));
 	background: -webkit-linear-gradient(top, orange, pink);
 	background: -moz-linear-gradient(top, orange, pink);

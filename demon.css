@@ -1,0 +1,12 @@
+i.demonrank {
+	font-style: normal;
+	font-weight: bold;
+	background: -webkit-gradient(linear, left bottom, right top, from(#ff0000), to(#ff9933));
+	background: -webkit-linear-gradient(top, #ff0000, ff9933);
+	background: -moz-linear-gradient(top, #ff0000, ff9933);
+	background: -o-linear-gradient(top, #ff0000, ff9933);
+	background: linear-gradient(to top, #ff0000, ff9933);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}

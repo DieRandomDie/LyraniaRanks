@@ -1,9 +1,9 @@
-div.chatline span [href*="E"] .chatname {
+div.chatline span [href*="DieRandomDie"] .chatname {
   font-size: 0;
   visibility: hidden;
 }
 
-div.chatline span [href*="E"] .chatname::after {
+div.chatline span [href*="DieRandomDie"] .chatname::after {
   font-size: 13px;
   visibility: visible;
   text-align: center;

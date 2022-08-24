@@ -1,13 +1,13 @@
-div.chatline span [href*="DieVodkaDie"] .chatname {
+div.chatline span [href*="E"] .chatname {
   font-size: 0;
   visibility: hidden;
 }
 
-div.chatline span [href*="Vodka"] .chatname::after {
+div.chatline span [href*="E"] .chatname::after {
   font-size: 13px;
   visibility: visible;
   text-align: center;
-  content: "DieVodkaDie";
+  content: "DeezNUTZ";
   background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(red), color-stop(yellow), color-stop(green), to(#fff));
   background: -webkit-linear-gradient(right, #fff, red, yellow, green, #fff);
   background: -moz-linear-gradient(right, #fff, red, yellow, green, #fff);
@@ -18,12 +18,12 @@ div.chatline span [href*="Vodka"] .chatname::after {
   color: transparent;
 }
 
-.ranktext {
+.drd {
 	font-style: normal;
 	animation: yay 45s ease-in infinite;
 }
 
-.ranktext span {
+.drd span {
 	animation: yay-r 30s ease-in infinite;
 }
 

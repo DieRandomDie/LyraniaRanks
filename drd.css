@@ -1,3 +1,4 @@
+/*
 div.chatline span [href*="DieRandomDie"] .chatname {
   font-size: 0;
   visibility: hidden;
@@ -17,7 +18,7 @@ div.chatline span [href*="DieRandomDie"] .chatname::after {
   background-clip: text;
   color: transparent;
 }
-
+*/
 .drd {
 	font-style: normal;
 	animation: yay 45s ease-in infinite;

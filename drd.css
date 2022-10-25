@@ -21,11 +21,11 @@ div.chatline span [href*="DieRandomDie"] .chatname::after {
 */
 .drd {
 	font-style: normal;
-	animation: yay 45s ease-in infinite;
+	animation: yay 20s ease-in infinite;
 }
 
 .drd span {
-	animation: yay-r 30s ease-in infinite;
+	animation: yay-r 20s ease-in infinite;
 }
 
 @keyframes yay {

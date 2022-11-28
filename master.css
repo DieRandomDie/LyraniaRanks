@@ -1,8 +1,13 @@
+:root {
+    --text-color: white;
+    --outline-color: cyan;
+}
+
 .outline {
     font-size: .8rem;
     font-weight: 600;
     font-family: "Times New Roman", Times, serif;
-    color: black;
-    text-shadow: -1px 0 1px cyan, 0 1px 1px cyan, 1px 0 1px cyan, 0 -1px 1px cyan;
+    color: var(--color);
+    text-shadow: -1px 0 1px var(--outline-color), 0 1px 1px var(--outline-color), 1px 0 1px var(--outline-color), 0 -1px 1px var(--outline-color);
     letter-spacing: 0.5px;
 }

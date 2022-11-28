@@ -11,3 +11,53 @@
     text-shadow: -1px 0 1px var(--outline-outer-color), 0 1px 1px var(--outline-outer-color), 1px 0 1px var(--outline-outer-color), 0 -1px 1px var(--outline-outer-color);
     letter-spacing: 0.5px;
 }
+
+/* Begin DRD stuff */
+div.chatline span [href*='javascript:whisper("E")'] .chatname {
+  font-size: 0;
+  visibility: hidden;
+}
+
+div.chatline span [href*='javascript:whisper("E")'] .chatname::after {
+  font-size: 1rem;
+  visibility: visible;
+  text-align: center;
+  content: "DieRandomDie";
+  background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(red), color-stop(yellow), color-stop(green), to(#fff));
+  background: -webkit-linear-gradient(right, #fff, red, yellow, green, #fff);
+  background: -moz-linear-gradient(right, #fff, red, yellow, green, #fff);
+  background: -o-linear-gradient(right, #fff, red, yellow, green, #fff);
+  background: linear-gradient(to right, #fff, red, yellow, green, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.drd {
+	font-style: normal;
+	animation: slide-forward 20s ease-in infinite;
+}
+
+.drd span {
+	animation: slide-reverse 20s ease-in infinite;
+}
+
+@keyframes slide-forward {
+	0%, 100% {color: red}
+	15% {color: orange}
+	30% {color: yellow}
+	45% {color: green}
+	60% {color: blue}
+	75% {color: indigo}
+	90% {color: violet}
+}
+
+@keyframes slide-reverse {
+	0%, 100% {color: violet}
+	15% {color: indigo}
+	30% {color: blue}
+	45% {color: green}
+	60% {color: yellow}
+	75% {color: orange}
+	90% {color: red}
+}

@@ -1,10 +1,10 @@
 :root {
     --outline-inner-color: black;
-    --outline-outer-color: white;
+    --outline-outer-color: cyan;
 }
 
 .outline {
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: 600;
     font-family: "Times New Roman", Times, serif;
     color: var(--outline-inner-color);

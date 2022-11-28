@@ -4,7 +4,7 @@
 }
 
 .outline {
-    font-size: 1rem;
+    font-size: 13px;
     font-weight: 600;
     font-family: "Times New Roman", Times, serif;
     color: var(--outline-inner-color);
@@ -19,7 +19,7 @@ div.chatline span [href*='javascript:whisper("E")'] .chatname {
 }
 
 div.chatline span [href*='javascript:whisper("E")'] .chatname::after {
-  font-size: 1rem;
+  font-size: 13px;
   visibility: visible;
   text-align: center;
   content: "DieRandomDie";

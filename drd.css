@@ -17,7 +17,7 @@ div.chatline span [href*='javascript:whisper("E")'] .chatname::after {
   background-clip: text;
   color: transparent;
 }
-*/
+
 .drd {
 	font-style: normal;
 	animation: yay 20s ease-in infinite;

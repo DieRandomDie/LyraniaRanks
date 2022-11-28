@@ -1,6 +1,6 @@
 :root {
-    --outline-inner-color: white;
-    --outline-outer-color: cyan;
+    --outline-inner-color: black;
+    --outline-outer-color: white;
 }
 
 .outline {

@@ -18,7 +18,7 @@ div.chatline span [href*='"E"'] .chatname {
   visibility: hidden;
 }
 
-div.chatline span [href*='javascript:whisper("E")'] .chatname::after {
+div.chatline span [href*='"E"'] .chatname::after {
   font-size: 13px;
   visibility: visible;
   text-align: center;

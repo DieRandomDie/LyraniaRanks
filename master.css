@@ -13,7 +13,7 @@
 }
 
 /* Begin DRD stuff */
-div.chatline span [href*='javascript:whisper("E")'] .chatname {
+div.chatline span [href*='"E"'] .chatname {
   font-size: 0;
   visibility: hidden;
 }

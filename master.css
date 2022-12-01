@@ -14,23 +14,8 @@
 
 /* Begin DRD stuff */
 div.chatline span [href*='"E"'] .chatname {
-  font-size: 0;
-  visibility: hidden;
-}
-
-div.chatline span [href*='"E"'] .chatname::after {
-  font-size: 13px;
-  visibility: visible;
-  text-align: center;
-  content: "DieRandomDie";
-  background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(red), color-stop(yellow), color-stop(green), to(#fff));
-  background: -webkit-linear-gradient(right, #fff, red, yellow, green, #fff);
-  background: -moz-linear-gradient(right, #fff, red, yellow, green, #fff);
-  background: -o-linear-gradient(right, #fff, red, yellow, green, #fff);
-  background: linear-gradient(to right, #fff, red, yellow, green, #fff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+    display: inline-block;
+    animation: rasta linear 7s infinite, wheee linear 10s infinite;
 }
 
 .drd {
@@ -40,6 +25,17 @@ div.chatline span [href*='"E"'] .chatname::after {
 
 .drd span {
 	animation: slide-reverse 20s ease-in infinite;
+}
+
+@keyframes rasta {
+    0%, 100% {color: red}
+    33% {color: yellow}
+    66% {color: green}
+}
+
+@keyframes wheee {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }
 
 @keyframes slide-forward {

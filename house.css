@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+div.chatline span [href*='"X"'] .chatname {
+    font-size: 0;
+}
+div.chatline span [href*='"X"'] .chatname:after {
+  font-size: 13px;
+  content: "Ten-"
+}
+
 .housename {
   text-align: center;
   text-decoration: underline;

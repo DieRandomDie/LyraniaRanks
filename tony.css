@@ -1,0 +1,29 @@
+.tony {
+  background: #000000; 
+  background: radial-gradient(circle farthest-side at center center, #000000 0%, #3366FF 100%); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+div.chatline span [href*='"Tony"'] .chatname {
+    font-size: 0;
+    visibility: hidden;
+}
+
+div.chatline span [href*='"Tony"'] .chatname::before {
+    font-size: 13px;
+    visibility: visible;
+    content: "T";
+    display: inline-block;
+    animation: wheeeY linear 10s infinite;
+}
+div.chatline span [href*='"Tony"'] .chatname::after {
+    font-size: 13px;
+    visibility: visible;
+    content: "ony";
+}
+
+@keyframes wheeeY {
+    from {transform:rotateY(0deg);}
+    to {transform:rotateY(360deg);}
+}

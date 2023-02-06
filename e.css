@@ -1,0 +1,22 @@
+.drd {
+  background: #7611CF;
+  background: radial-gradient(circle farthest-corner at center center, #7611CF 0%, #CFC1A6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div.chatline span [href*='"E"'] .chatname {
+    display: inline-block;
+    animation: rasta linear 7s infinite, wheee linear 10s infinite;
+}
+
+@keyframes rasta {
+    0%, 100% {color: red}
+    33% {color: yellow}
+    66% {color: green}
+}
+
+@keyframes wheee {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}

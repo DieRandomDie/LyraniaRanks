@@ -1,41 +1,55 @@
-:root {
-    --outline-inner-color: black;
-    --outline-outer-color: cyan;
-}
-
-.outline {
-    font-size: 13px;
-    font-weight: 600;
-    font-family: "Times New Roman", Times, serif;
-    color: var(--outline-inner-color);
-    text-shadow: -1px 0 1px var(--outline-outer-color), 0 1px 1px var(--outline-outer-color), 1px 0 1px var(--outline-outer-color), 0 -1px 1px var(--outline-outer-color);
-    letter-spacing: 0.5px;
-}
-
-/* Begin DRD stuff */
 div.chatline span [href*='"E"'] .chatname {
     display: inline-block;
-    animation: rasta linear 7s infinite, wheee linear 10s infinite;
+    color: violet;
+    animation: byeworld linear 10s infinite;
 }
 
-.drd {
+.drdeez {
 	font-style: normal;
 	animation: slide-forward 20s ease-in infinite;
 }
 
-.drd span {
+.drdeez span {
 	animation: slide-reverse 20s ease-in infinite;
 }
 
-@keyframes rasta {
-    0%, 100% {color: red}
-    33% {color: yellow}
-    66% {color: green}
-}
-
-@keyframes wheee {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+@keyframes byeworld {
+    0% {transform:translateY(0px);}
+    1% {transform:translateY(-1px);}
+    2% {transform:translateY(-5px);}
+    3% {transform:translateY(-7px);}
+    4% {transform:translateY(-7px);}
+    5% {transform:translateY(-5px);}
+    6% {transform:translateY(-1px);}
+    7% {transform:translateY(0px);}
+    10% {transform:translateY(0px);}
+    11% {transform:translateY(-1px);}
+    12% {transform:translateY(-5px);}
+    13% {transform:translateY(-7px);}
+    14% {transform:translateY(-7px);}
+    15% {transform:translateY(-5px);}
+    16% {transform:translateY(-1px);}
+    17% {transform:translateY(0px);}
+    25% {transform:translate(0px,0px) rotate(0deg);}
+    26% {transform:translate(1px,-1px) rotate(20deg);}
+    27% {transform:translate(3px,-5px) rotate(40deg);}
+    28% {transform:translate(5px,-7px) rotate(60deg);}
+    29% {transform:translate(7px,-7px) rotate(80deg);}
+    30% {transform:translate(9px,-5px) rotate(100deg);}
+    31% {transform:translate(12px,-1px) rotate(120deg);}
+    32% {transform:translate(15px,8px) rotate(140deg);}
+    33% {transform:translate(18px,15px) rotate(160deg);}
+    34% {transform:translate(18px,25px) rotate(160deg);opacity: 1}
+    35% {opacity: 0}
+    70% {transform:translate(0px,0px);opacity: 0}
+    71% {opacity: 1}
+    72% {opacity: 0}
+    73% {opacity: 1}
+    74% {opacity: 0}
+    75% {opacity: 1}
+    76% {opacity: 0}
+    80% {opacity: 1}
+    
 }
 
 @keyframes slide-forward {

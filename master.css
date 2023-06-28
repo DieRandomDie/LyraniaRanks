@@ -1,15 +1,38 @@
-div.chatline span [href*='"E"'] .chatname {
+div.chatline span [href*='"asdf"'] .chatname {
+  font-size: 0;
+  visibility: hidden;
+}
+
+div.chatline span [href*='"asdf"'] .chatname::before {
+  font-size: 13px;
+  visibility: visible;
+  text-align: center;
+  content: "DieRandomDi";
+  background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(red), color-stop(yellow), color-stop(green), to(#fff));
+  background: -webkit-linear-gradient(right, #fff, red, yellow, green, #fff);
+  background: -moz-linear-gradient(right, #fff, red, yellow, green, #fff);
+  background: -o-linear-gradient(right, #fff, red, yellow, green, #fff);
+  background: linear-gradient(to right, #fff, red, yellow, green, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+div.chatline span [href*='"asdf"'] .chatname::after {
+    content: "e";
+    font-size: 13px;
+    visibility: visible;
     display: inline-block;
-    color: violet;
+    color: #ccc;
     animation: byeworld linear 10s infinite;
 }
 
-.drdeez {
+.drd {
 	font-style: normal;
 	animation: slide-forward 20s ease-in infinite;
 }
 
-.drdeez span {
+.drd span {
 	animation: slide-reverse 20s ease-in infinite;
 }
 

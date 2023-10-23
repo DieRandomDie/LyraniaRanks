@@ -17,6 +17,11 @@
   background-size: 400% 100%;
 }
 
+
+#housing div div a[href*='javascript:trick'] {
+  animation: shift-r 8s ease-in-out infinite;
+}
+
 @-webkit-keyframes shift {
   0%, 100% { background-position: 0 0; }
   50% { background-position: 100% 0; }
@@ -32,4 +37,20 @@
 @keyframes shift {
   0%, 100% { background-position: 0 0; }
   50% { background-position: 100% 0; }
+}
+@-webkit-keyframes shift-r {
+  50% { background-position: 0 0; }
+  0%, 100% { background-position: 100% 0; }
+}
+@-moz-keyframes shift-r {
+  50% { background-position: 0 0; }
+  0%, 100% { background-position: 100% 0; }
+}
+@-o-keyframes shift-r {
+  50% { background-position: 0 0; }
+  0%, 100% { background-position: 100% 0; }
+}
+@keyframes shift-r {
+  50% { background-position: 0 0; }
+  0%, 100% { background-position: 100% 0; }
 }
